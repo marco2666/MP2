@@ -1,0 +1,254 @@
+body{
+  overflow-x: hidden;
+  background-color: #f2f1f0!important;
+  /* font-family: 'Comfortaa', cursive!important;
+  font-family: 'Paytone One', sans-serif; */
+}
+
+html{
+  scroll-behavior: smooth;;
+}
+
+li{
+  display: inline;
+  list-style-type: none;
+}
+
+/* START NAVBAR */
+.navbar{
+  background: #51a2d400; 
+  /* background: #057AC2; */
+  /* background: #E4D4B5; */
+  /* background-image: url('https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-frost.png');
+  background-size: cover; */
+  width: 100%!important;
+  padding: 9px!important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link:hover{
+  font-weight: bold;
+  color:rgba(241, 81, 81, 0.867)!important;
+}
+
+.nav-link:after{
+  content: "";
+  position:absolute;
+  border-bottom: 5px solid rgba(241, 81, 81, 0.867);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -1px;
+  transition: 0.3s;
+}
+
+.nav-link:hover:after{
+  width: 100%;
+}
+
+.navbar-nav li a{
+  /* color: #042856!important; */
+  color: #e1e7f1!important;
+  font-size: 18px;
+  margin-top: 4px;
+  font-weight: 700;
+  /* text-shadow: 2px 2px  #b11e0ddd; */
+}
+
+/* .dropdown-menu{
+  background-color: #022337!important;
+}
+
+.dropdown-menu li a:hover{
+  background-color: rgb(103, 129, 160)!important;
+} */
+
+@media all and (min-width: 992px){
+.navbar .nav-item .dropdown-menu{ display: none; }
+.navbar .nav-item:hover .dropdown-menu{ display: block; }
+.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+/* END NAVBAR */
+
+
+/* START FOOTER */
+#footer{
+  background: #51a2d4;
+  /* background: #057AC2; */
+  /* background-image: url('images/7.png');  */
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  background-size: cover;
+}
+
+.quicklinks{
+  color: #e9e6f4;
+  font-weight: 700;
+  /* text-shadow: 2px 2px  #b11e0ddd; */
+}
+
+#footer li{
+  display: block;
+}
+
+.quicklinks:hover{
+  font-weight: bold;
+  color: rgba(69, 59, 201, 0.856);
+  
+}
+/* END FOOTER */
+
+.carousel-caption {
+	position: relative!important;
+	left: 10px!important;
+	bottom: -240px!important;
+    text-align: left!important;
+}
+
+.navbar{
+    margin-bottom: 0 !important;
+    border: 0 !important;
+    margin-top: 0 !important;
+}
+
+.banner1{
+    background-image: url(../images/16.jpg);
+    background-repeat: no-repeat;
+    background-position: center center left;
+    height: 100%;
+    background-size: cover;
+    height: 80vh;
+}
+
+.animate__animated.animate__rotateInDownLeft{
+  --animate-duration: 1.3s;
+  transition-timing-function: ease-in;
+}
+
+.title1{
+  color: #1b467b;
+  font-size: 50px;
+  font-weight: 700;
+  /* font-family: 'Paytone One', sans-serif; */
+  /* text-shadow: 4px 3px  #f3f3f3e1; */
+}
+
+#line1{
+  border: 0!important;
+  border-bottom: 4px solid rgb(247, 243, 230)!important;
+  opacity: 1;
+}
+
+#carouselExampleAutoplaying .carousel-item img{
+  height:35vh;
+}
+
+#carouselExampleAutoplaying .carousel-item::before{
+  content: '';
+  display: block;
+  position: absolute;
+  background-image: 
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(100, 151, 193, 0.621)
+    );
+  width: 100vw;
+  top: 0;
+  height: 35vh;
+}
+
+.title2{
+  font-size: 40px;
+  font-weight: 800;
+  color: #5ea9d8;
+  font-family: 'Paytone One', sans-serif;
+}
+
+.title3{
+  color: #efb73f;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: 'Paytone One', sans-serif;
+}
+
+.row .who-we img {
+  max-width: 100%;
+  width: 100%;
+  /* border: 5px dashed #5ea9d8; */
+  border-radius: 20px;
+  box-shadow: 10px 10px #efb73fc2;
+}
+
+.bg-overlay2 {
+  background: linear-gradient(rgba(0,0,0,.7), rgba(58, 167, 250, 0.529)), url(https://theplanetd.com/images/Traditional-Filipino-Food-Philippines.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  height: 300px;
+  padding-top: 10px;
+}
+
+.img-col1{
+  /* background-image: url('https://cdn-icons-png.flaticon.com/128/8065/8065164.png'); */
+  margin: 0!important;
+  padding: 0!important;
+  max-width: 100%!important;
+  max-height: 100%!important;
+
+}
+
+.food-facts-inner{
+  border-radius: 13px!important;
+  box-shadow: 10px 10px #efb73f77;
+}
+
+
+
+
+
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(16, 14, 13, 0.603); 
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: rgb(231, 231, 231)!important;
+  margin: 5% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%!important; 
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+  

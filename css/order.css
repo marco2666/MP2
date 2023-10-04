@@ -1,0 +1,71 @@
+body{
+    overflow-x: hidden;
+    background-color: #E4D4B5!important;
+}
+
+html{
+    scroll-behavior: smooth;;
+}
+
+li{
+    display: inline;
+    list-style-type: none;
+}
+
+/* START NAVBAR */
+.navbar{
+    background: #51a2d4;
+    /* background: #057AC2; */
+    /* background: #E4D4B5; */
+    /* background-image: url('https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-frost.png');
+    background-size: cover; */
+    width: 100%!important;
+    padding: 9px!important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link:hover{
+    font-weight: bold;
+    color:rgba(241, 81, 81, 0.867)!important;
+}
+
+.nav-link:after{
+    content: "";
+    position:absolute;
+    border-bottom: 5px solid rgba(241, 81, 81, 0.867);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -1px;
+    transition: 0.3s;
+}
+
+.nav-link:hover:after{
+    width: 100%;
+}
+
+.navbar-nav li a{
+    /* color: #173a6e!important; */
+    color: #e1e7f1!important;
+    font-size: 18px;
+    margin-top: 4px;
+    font-weight: 700;
+    /* text-shadow: 2px 2px  #b11e0ddd; */
+}
+
+/* .dropdown-menu{
+    background-color: #022337!important;
+}
+
+.dropdown-menu li a:hover{
+    background-color: rgb(103, 129, 160)!important;
+} */
+
+@media all and (min-width: 992px){
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+/* END NAVBAR */

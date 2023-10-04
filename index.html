@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- FABICON -->
+    <link rel="icon" type="image" href="https://cdn-icons-png.flaticon.com/128/1054/1054117.png">
+    <!-- GOOGLE FONTS -->
+    
+    <!-- ANIMATION -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-xl navbar-dark py-3">
+        <div class="container-fluid">
+            <div class="mx-auto">
+                <a href="index.html">
+                <img src="images/18.png" class="ms-4" style="width: 130px; height: 100px;">
+                <!-- <a class="navbar-brand mx-auto" href="#" style="color: #E4D4B5; font-size: 27px;"><b>Funlasang Pinoy</b></a> -->
+                </a>
+            </div>
+            <div>
+                <button class="navbar-toggler" style="color: #af8430" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link" href="about.html" role="button">
+                        About
+                        </a>
+                        <!-- <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                            <li><a class="dropdown-item" href="#">Food History & Recipes</a></li>
+                        </ul> -->
+                    </li>
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link" href="menu.html" role="button" >
+                        Our Menu
+                        </a>
+                         <!-- <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Breakfast</a></li>
+                            <li><a class="dropdown-item" href="#">Lunch</a></li>
+                            <li><a class="dropdown-item" href="#">Dinner</a></li>
+                        </ul>  -->
+                    </li>
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link" aria-current="page" href="order.html">Order</a>
+                    </li>
+                    <li class="nav-item dropdown mx-3">
+                        <a class="nav-link" href="contact.html" role="button">
+                        Contact
+                        </a>
+                        <!-- <ul class="dropdown-menu" style="background-color:  #022337;">
+                            <li><a class="dropdown-item" href="#">Form</a></li>
+                            <li><a class="dropdown-item" href="#">FAQs</a></li> 
+                        </ul> -->
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a id="place-order" class="nav-link" href="#">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3176/3176397.png" class="mx-2" style="height: 40px; width: 40px;">
+                            <p id="cartlength" class="d-inline-block" style="color:rgba(218, 65, 65, 0.867)"><b></b></p>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="login.html">
+                            <img src="https://cdn-icons-png.flaticon.com/512/4018/4018431.png" class="mx-2" style="height: 40px; width: 40px;">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+
+    <br><br>
+
+    <div class="container-fluid" style="background-color: #3fa2df;">
+        h
+    </div>
+    <div class="container-fluid" style="background-color: #e7bb5d;">
+        h
+    </div>
+    <div class="container-fluid" style="background-color: #e66d65;">
+        h
+    </div>
+
+    <br><br><br><br>
+
+
+    <!--  MODAL -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+              <img src="https://cdn-icons-png.flaticon.com/128/12050/12050291.png" class=" mx-auto" style="width: 100px; height: 100px;">
+                <br>
+                <p id="modal-summary"></p>
+                <center>
+                <button onclick="window.location.href= 'checkout.html';" id="place-order" class="btnhover rounded-3 w-50 btn-buy p-2" >Pay Now</button>
+                </center>  
+            </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer" class="footer container-fluid" style="color: #e4d4b5;">
+        <div class="row p-4">
+            <div class="col-md-4 mt-4">
+                <a href="index.html"><img src="images/18.png" class="mx-auto my-2 d-flex align-items-center" style="width: 230px; height: 180px;"></a> 
+            </div>
+        
+            <div class="col-md-4">
+                <ul class="ms-5 mx-auto m-3">
+                    <li><a href="index.html"  class="quicklinks text-decoration-none"> Home</a></li>
+                    <br>
+                    <li><a href="about.html" class="quicklinks text-decoration-none"> About</a></li>
+                    <br>
+                    <!-- <li><a href="ourpartners.html" class="quicklinks text-decoration-none"> Food History/Recipes</a></li>
+                    <br> -->
+                    <li><a href="menu.html" class="quicklinks text-decoration-none"> Our Menu</a></li>
+                    <br>
+                    <li><a href="order.html" class="quicklinks text-decoration-none"> Order</a></li>
+                    <br>
+                    <li><a href="contact.html" class="quicklinks text-decoration-none"> Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4">
+                <ul class="ms-4 mt-3">
+                    <li><img class="me-2" style="height: 28px; width: 28px;" src="https://cdn-icons-png.flaticon.com/128/10831/10831906.png">
+                        <a href="#" class="quicklinks text-decoration-none">B12-L34 ABCD Street, Metro Manila </a></li><br>
+                    <li><img class="me-2" style="height: 28px; width: 28px" src="https://cdn-icons-png.flaticon.com/128/10525/10525324.png">
+                      <a href="#" class="quicklinks text-decoration-none">+63 123 456 7890</a></li><br>
+                    <li><img class="me-2" style="height: 28px; width: 28px" src="https://cdn-icons-png.flaticon.com/128/10828/10828619.png">
+                      <a href="#" class="quicklinks text-decoration-none">Email Us</a></li>
+                </ul>
+                <br><br>
+                <div class="ms-5 ps-2">
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/4406/4406253.png" class="me-2" style="height: 36px; width: 36px;"></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/1959/1959255.png" class="mx-2" style="height: 36px; width: 36px;"></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/2875/2875352.png" class="ms-2" style="height: 36px; width: 36px;"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="mt-2" style="color: #e4e4f09d; font-size: 13px;"> © All rights go to their respectful owners. </p> 
+                <!-- <p style="color: #e4d4b58e; font-size: 13px;"><u>Privacy Policy</u> │ <u>Refund Policy</u> │ <u>Shipping Policy</u> │ <u>Terms of Service </u></p> -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
